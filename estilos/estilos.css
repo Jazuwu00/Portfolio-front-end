@@ -1,0 +1,38 @@
+body{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,7,64,1) 38%, rgba(158,3,61,1) 100%);
+}
+
+/* .footer{
+    background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+ 
+} */
+#banner{
+    height: 150px;
+    background-image: url(https://img.pikbest.com/backgrounds/20180731/literary-aesthetic-pink-purple-gradient-background-banner_1839322.jpg!bw700);
+}
+#foto{
+   margin-top: -50px;
+}
+#seccion{
+    padding: 20px;
+    border-radius: 30px;
+    border: 0.2px solid rgba(128, 128, 128, 0.562);
+}
+ i{
+    color: black;
+    margin-left: 50px;
+
+}
+#subSeccion i{
+    color: black;
+   margin-left: 20px;
+}
+.nav-item i{
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
