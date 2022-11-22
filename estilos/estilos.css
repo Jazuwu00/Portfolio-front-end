@@ -36,3 +36,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,7,64,1) 38%, rgba(
     color: rgb(255, 255, 255);
     margin-left: 20px;
 }
+.edit{
+    margin-left: -40px;
+ 
+}
