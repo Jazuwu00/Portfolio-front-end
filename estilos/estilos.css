@@ -1,6 +1,6 @@
 body{
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,7,64,1) 38%, rgba(158,3,61,1) 100%);
+background: rgb(224, 167, 207);
+background: linear-gradient(90deg, rgb(209, 163, 211) 0%, rgb(175, 132, 207) 38%, rgb(192, 114, 143) 100%);
 }
 
 /* .footer{
@@ -19,6 +19,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,7,64,1) 38%, rgba(
    margin-top: -50px;
 }
 #seccion{
+    background-color: aliceblue;
     padding: 20px;
     border-radius: 30px;
     border: 0.2px solid rgba(128, 128, 128, 0.562);
