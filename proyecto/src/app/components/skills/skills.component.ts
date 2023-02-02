@@ -9,12 +9,13 @@ export class SkillsComponent  {
   @Input() number: String ="";
   @Input() title: String ="";
   @Input() color: String ="";
+
   @Output() btnClick= new EventEmitter()
 
 
 
   onClick(){
     this.btnClick.emit()
-    console.log("hola")
+ 
   }
 }

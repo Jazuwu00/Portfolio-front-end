@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-about',
@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent {
+  @Output() btnClick= new EventEmitter()
 
+
+
+  onClick(){
+    this.btnClick.emit()
+    console.log("hola")
+  }
+  ngOnInit(): void{}
+
+  addSeccion(){
+    console.log("si")
+  }
 }
