@@ -1,0 +1,76 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "title": "css",
+            "porcentaje": 90,
+            "color":"blue"
+        },
+        {
+            "id": 2,
+            "title": "html",
+            "porcentaje": 90,
+            "color":"red"
+        },
+        {
+            "id": 3,
+            "title": "javascript",
+            "porcentaje": 90,
+            "color":"yellow"
+        }
+    ],
+    "MyInfo": [
+        {
+            "name": "jazmin saravia",
+            "title": "developer full-stack",
+            "porcentaje": 90,
+            "city": "buenos aires",
+            "country":"argentina",
+            "description":"Estudiante en busca de un empleo formal donde desarollar y mejorar habilidades ademas de seguir aprendiendo",
+            "foto": "",
+            "background":""
+        }
+    ],
+    "studies": [
+        {
+            "title": "developer",
+            "campus": "developer full-stack",
+            "study status": "yes",
+            "Start date": "2017/05/6",
+            "finish date":"2022/08/23",
+            "city": "buenos aires",
+            "country":"argentina",
+            "description":"todo tipo de tecnologías"
+        }
+    ],
+    "proyects": [
+        {
+            "id": 1,
+            "titles": "css",
+            "description": "",
+            "Link":"www.react.com"
+        },
+        {
+            "id": 2,
+            "titles": "css",
+            "description": "",
+            "Link":"www.react.com"
+        },
+        {
+            "id": 3,
+            "titles": "Calculadora React",
+            "description": "",
+            "Link":"www.react.com"
+        }
+    ],
+    "experience": [
+        {
+            "id": 1,
+            "title": "ejecutiva de ventas",
+            "description": "",
+            "empresa":"academit",
+            "Start date": "2022/12/20",
+            "finish date":"2023/08/23"
+        }
+    ]
+}

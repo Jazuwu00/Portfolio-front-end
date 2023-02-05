@@ -1,7 +1,8 @@
 import { Info } from "./Info"
 
 export const INFO:Info[] = [
-    {
+   
+        {
         id:1,
         title: "primer titulo",
         descripcion: "loremmmm"
@@ -21,4 +22,5 @@ export const INFO:Info[] = [
         title: "cuarto titulo",
         descripcion: "lorerrrmmmm"
     }
+    
 ]
