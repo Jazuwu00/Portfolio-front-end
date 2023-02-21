@@ -1,4 +1,5 @@
 import { Component,EventEmitter,Input, Output } from '@angular/core';
+import { InfoService } from 'src/app/service/info.service';
 
 @Component({
   selector: 'app-skills',
@@ -6,16 +7,24 @@ import { Component,EventEmitter,Input, Output } from '@angular/core';
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent  {
-  @Input() number: String ="";
-  @Input() title: String ="";
-  @Input() color: String ="";
+  skills:any;
+  constructor(private datos:InfoService ){
+   
+  }
+  ngOnInit(): void {
+    this.datos.obtenerDatos().subscribe(data => {
+      console.log(data);
+      this.skills=data.skills;
+    })
+  }
+  getColor(color:String){
+    switch (color ){
+      case "blue":
+        return 'blue';
+      default:
+        return 'green'
+    }
 
-  @Output() btnClick= new EventEmitter()
-
-
-
-  onClick(){
-    this.btnClick.emit()
- 
+    
   }
 }

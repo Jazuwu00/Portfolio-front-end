@@ -1,7 +1,5 @@
 import { Injectable } from '@angular/core';
 import { Observable,of } from 'rxjs';
-import { Info } from '../components/Info';
-import { INFO } from './../components/mock-info';
 import {HttpClient} from '@angular/common/http'
 
 @Injectable({
@@ -9,10 +7,10 @@ import {HttpClient} from '@angular/common/http'
 })
 export class InfoService {
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
    
-  getInfo(): Observable<Info[]>{
-   const infos= of(INFO);
-    return infos
+  obtenerDatos():Observable<any>{
+    return this.http.get('./assets/data/data.json')
   }
+ 
 }

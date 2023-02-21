@@ -1,4 +1,5 @@
 import { Component,OnInit,Input,Output} from '@angular/core';
+import { InfoService } from 'src/app/service/info.service';
 
 @Component({
   selector: 'app-seccion',
@@ -10,13 +11,17 @@ export class SeccionComponent implements OnInit {
   @Input() title: String ="";
   @Input() subtitle: String ="";
 
-
-  constructor(){
-
+  experience:any;
+  constructor(private datos:InfoService ){
+   
   }
-  
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    this.datos.obtenerDatos().subscribe(data => {
+      console.log(data);
+      this.experience=data.experience;
+    })
   }
+
+ 
 
 }

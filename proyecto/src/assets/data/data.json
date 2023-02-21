@@ -1,10 +1,18 @@
-{
+{   
+    "name": "jazmin saravia",
+    "title": "developer full-stack",
+    "city": "buenos aires",
+    "country":"argentina",
+    "description":"Estudiante en busca de un empleo formal donde desarollar y mejorar habilidades ademas de seguir aprendiendo",
+    "foto": "https://genshin.honeyhunterworld.com/img/hutao_046.webp",
+    "background":"https://www.todofondos.net/wp-content/uploads/fondos-de-colores-minimalistas-top-gratis-de-colores-minimalistas.-fondo-de-pantalla-hd-1080p-de-colores.png",
     "skills": [
         {
             "id": 1,
             "title": "css",
             "porcentaje": 90,
-            "color":"blue"
+            "color":"red",
+            "number":30
         },
         {
             "id": 2,
@@ -19,25 +27,10 @@
             "color":"yellow"
         }
     ],
-    "MyInfo": [
-        {
-            "name": "jazmin saravia",
-            "title": "developer full-stack",
-            "porcentaje": 90,
-            "city": "buenos aires",
-            "country":"argentina",
-            "description":"Estudiante en busca de un empleo formal donde desarollar y mejorar habilidades ademas de seguir aprendiendo",
-            "foto": "",
-            "background":""
-        }
-    ],
     "studies": [
         {
             "title": "developer",
             "campus": "developer full-stack",
-            "study status": "yes",
-            "Start date": "2017/05/6",
-            "finish date":"2022/08/23",
             "city": "buenos aires",
             "country":"argentina",
             "description":"todo tipo de tecnologías"
@@ -66,11 +59,11 @@
     "experience": [
         {
             "id": 1,
-            "title": "ejecutiva de ventas",
-            "description": "",
-            "empresa":"academit",
-            "Start date": "2022/12/20",
-            "finish date":"2023/08/23"
+            "title": "Ejecutiva de ventas",
+            "description": "relizacion de bases de datos, llamadas , y presupuestos personalizados",
+            "empresa":"academit - medio tiempo",
+            "Startdate": "2022/12/20",
+            "finishdate":"Actualidad"
         }
     ]
 }
