@@ -8,6 +8,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './components/about/about.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { AboutmeComponent } from './components/aboutme/aboutme.component';
+import { EstudiosComponent } from './components/estudios/estudios.component';
 
 
 @NgModule({
@@ -18,6 +20,8 @@ import { SkillsComponent } from './components/skills/skills.component';
     FooterComponent,
     AboutComponent,
     SkillsComponent,
+    AboutmeComponent,
+    EstudiosComponent,
   
   ],
   imports: [

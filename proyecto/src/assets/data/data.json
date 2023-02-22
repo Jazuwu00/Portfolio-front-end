@@ -29,11 +29,36 @@
     ],
     "studies": [
         {
-            "title": "developer",
-            "campus": "developer full-stack",
+            "title": "Fullstack con Desarrollo Web ",
+            "campus": "Codo a codo",
+            "img":"https://inscripcionesagencia.bue.edu.ar/codoacodo/iconos/logos/logo-CAC-2.webp",
             "city": "buenos aires",
             "country":"argentina",
-            "description":"todo tipo de tecnologías"
+            "description":"conocimientos del lenguaje JavaScript y del entorno Node.Js"
+        },
+        {
+            "title": "Developer Front-end",
+            "campus": "Potrero digital",
+            "img":"https://static.wixstatic.com/media/5b90eb_2f1f983af79a4e69ba942bc0586dbb7d~mv2.png/v1/fill/w_191,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/potrero_digital_2021_edited.png",
+            "city": "buenos aires",
+            "country":"argentina",
+            "description":"desarrollar todas las funcionalidades requeridas para las diferentes secciones de un sitio o aplicación web."
+        },
+        {
+            "title": "Excel avanzado",
+            "campus": "Municipalidad 3 de febrero",
+            "img":"https://www.tresdefebrero.gov.ar/wp-content/uploads/2022/05/tres_febrero_logo_footer.png",
+            "city": "buenos aires",
+            "country":"argentina",
+            "description":"comprender los principales conceptos que se utilizan en Excel, así como su uso práctico orientado al análisis de bases datos, operaciones matemáticas y funciones avanzadas."
+        },
+        {
+            "title": "se programar, Yo programo",
+            "campus": "Argentina programa",
+            "img":"https://desa.argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1674860780/APLogo-20-20.png",
+            "city": "buenos aires",
+            "country":"argentina",
+            "description":" programa nacional y federal que tiene como objetivo capacitar a personas en lenguajes y conocimientos sobre programación"
         }
     ],
     "proyects": [
