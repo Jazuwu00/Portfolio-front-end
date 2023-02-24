@@ -10,21 +10,23 @@
         {
             "id": 1,
             "title": "css",
-            "porcentaje": 90,
-            "color":"red",
-            "number":30
+            "porcentaje": "50%",
+            "color":"blue",
+            "number":"90%"
         },
         {
             "id": 2,
             "title": "html",
-            "porcentaje": 90,
-            "color":"red"
+            "porcentaje": "90%",
+            "color":"red",
+            "number":"90%"
         },
         {
             "id": 3,
             "title": "javascript",
-            "porcentaje": 90,
-            "color":"yellow"
+            "porcentaje": "90%",
+            "color":"yellow",
+            "number":"90%"
         }
     ],
     "studies": [
